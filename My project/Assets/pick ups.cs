@@ -9,6 +9,9 @@ public tring pickUPtype;
         public int amount;
         publice value;
         
+        private GameManager gm;
+        
+        
     // Start is called before the first frame update
          
     
@@ -18,8 +21,8 @@ public tring pickUPtype;
     
     void Start()
     {
-       
-
+       gm = GameObject.Find("GameManager")
+       .GetComponent<GameManager>();
     }
 
     // Update is called once per frame
