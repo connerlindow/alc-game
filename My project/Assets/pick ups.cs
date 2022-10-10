@@ -32,7 +32,7 @@ public tring pickUPtype;
     }
 
     void OnTriggerEnter(collider other)
-{
+
         if(oter.other.gameObject.CompareTag("player"))
         {
             Destroy(GameObject);// Destroy pickup
