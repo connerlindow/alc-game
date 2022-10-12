@@ -31,12 +31,15 @@ public tring pickUPtype;
         
     }
 
-    void OnTriggerEnter(collider other)
-
-        if(oter.other.gameObject.CompareTag("player"))
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.GameObject.CompareTag("player"))
         {
-            Destroy(GameObject);// Destroy pickup
+            Destroy(gameObject);// Destroy pickup
         }
+    }
+
+        
 
 }
 

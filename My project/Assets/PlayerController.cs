@@ -20,6 +20,6 @@ public class PlayerController : MonoBehaviour
         
         
         //Moves the player left and right
-        transform.Translate(Vector2.up * vInput * speed Time.deltaTime);
+        transform.Translate(Vector2.up * vInput * speed * Time.deltaTime);
     }
 }
