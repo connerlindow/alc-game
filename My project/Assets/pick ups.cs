@@ -5,9 +5,9 @@ using UnityEngine;
 public class pickups : MonoBehaviour
 {
 
-public tring pickUPtype;
-        public int amount;
-        publice value;
+    public string pickUPtype;
+    public int amount;
+    public value;
         
         private GameManager gm;
         
